@@ -1,5 +1,5 @@
-import React from 'react';
-import { Code2 } from 'lucide-react';
+import React from "react";
+import { Code2 } from "lucide-react";
 
 const LoadingScreen: React.FC = () => {
   return (
@@ -11,13 +11,21 @@ const LoadingScreen: React.FC = () => {
           </div>
           <div className="absolute -top-1 -right-1 w-6 h-6 bg-emerald-500 rounded-full animate-bounce"></div>
         </div>
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">Jeffrey C.</h2>
-        <p className="text-gray-500 text-sm animate-pulse">Loading portfolio...</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-2">Thelmer.</h2>
+        <p className="text-gray-500 text-sm animate-pulse">
+          Loading portfolio...
+        </p>
         <div className="mt-6 flex justify-center">
           <div className="flex space-x-1">
             <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-            <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+            <div
+              className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"
+              style={{ animationDelay: "0.1s" }}
+            ></div>
+            <div
+              className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"
+              style={{ animationDelay: "0.2s" }}
+            ></div>
           </div>
         </div>
       </div>
